@@ -21,7 +21,7 @@ repositories {
 }
 dependencies {
     compileOnly 'org.projectlombok:lombok'
-    implementation('org.springframework.boot:string-boot-starter-mustache')
+    implementation('org.springframework.boot:spring-boot-starter-mustache')
     annotationProcessor 'org.projectlombok:lombok'
     implementation('org.springframework.boot:spring-boot-starter-web')
     testImplementation('org.springframework.boot:spring-boot-starter-test')
