@@ -3,4 +3,4 @@ os: linux
 files:
   - source: /
     destination: /home/centos/app/step2/zip/
-    overwrite" yes
+    overwrite: yes
