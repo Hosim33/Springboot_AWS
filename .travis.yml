@@ -41,7 +41,7 @@ deploy:
     bucket: bbosongbbo-build # S3 버킷
     key: bbosong.zip
     bundle_type: zip # 압축 확장자
-    application: freelec-springboot2-webservice #웹 콘솔에서 등록한 CodeDeploy 애플리케이션
+    application: freeloc-springboot2-webservice #웹 콘솔에서 등록한 CodeDeploy 애플리케이션
     deployment_group: freelec-springboot2-webservice-group #웹 콘솔에서 등록한 CodeDeploy 배포 그룹
     region: ap-northeast-2
     wait-until-deployed: true
